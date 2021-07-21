@@ -1,0 +1,13 @@
+.Nav-Wrapper {
+    display: flex;
+    justify-content: space-between;
+    padding: 0.5em;
+  }
+  
+  .Nav-Home { 
+    font-weight: bold;
+  }
+  
+  .Nav-Rules {
+    margin-left: 1em;
+  }

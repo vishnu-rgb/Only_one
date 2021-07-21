@@ -1,0 +1,40 @@
+html, body, #root, .App-Wrapper, .App-Wrapper > div, .Start-Wrapper {
+    height: 100%;
+  }
+  
+  .Start-Wrapper form {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    width: 14em;
+  }
+  
+  .Start-Copy {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    height: calc(100% - 4em);
+    justify-content: center;
+    min-height: 15em;
+    text-align: center;
+  }
+  
+  .Start-Copy form span {
+    margin: 0.25em;
+  }
+  
+  .Start-Copy form button {
+    
+    width: 5em;
+    border-radius: 12px;
+    border: none;
+    display: inline-block;
+    font-size: 20px;
+    margin:  4px 2px;
+    text-align: center;
+    text-decoration: none;
+    background-color: #8226a6;
+    
+    
+  }
